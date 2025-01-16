@@ -10,9 +10,9 @@ UART is an asynchronous communication protocol using a start bit to begin transm
 In this section, I have summarized the key points from the "UART Specification" and the "UART Slide" provided by the center.
 For further details, please refer to the full documents linked below:
 
-- [UART Specification Document](https://github.com/huynv1212/Uart_Verification/blob/b7d4db5c69995b3bbfcb4ec77676a7f98ebc095e/14.%20Project%202.%20Develop%20and%20validate%20UART%20VIP.pdf).
+- [UART Slide Presentation](https://github.com/huynv1212/Uart_Verification/blob/b7d4db5c69995b3bbfcb4ec77676a7f98ebc095e/14.%20Project%202.%20Develop%20and%20validate%20UART%20VIP.pdf).
+- [UART Specification Document](https://github.com/huynv1212/Uart_Verification/blob/dbb30989dad604e863c3684781a27175cdc2aa41/UART%20Protocol%20summary.pdf).
 
 
-pdf]
 
 ![This is an example image](github.png)
