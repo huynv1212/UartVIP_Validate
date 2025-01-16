@@ -6,6 +6,11 @@ My name is Nguyen Van Huy, and I am a course participant at ICTC (IC Training Ce
 UART is an asynchronous communication protocol using a start bit to begin transmission, a data frame for actual data (5-9 bits), an optional parity bit for error checking, and stop bits to signal the end. Baud rate determines data transfer speed. Common baud rates include 4800, 9600, 19200, 57600 and 115200 bps.
 - fgdfsgd
 
-[Tải xuống PDF của tôi](https://github.com/username/Uart_verification/14. Project 2. Develop and validate UART VIP.pdf)
+  # Tài liệu dự án
+
+Bạn có thể tải xuống tài liệu PDF của tôi từ [đây](https://github.com/huynv1212/Uart_Verification/blob/b7d4db5c69995b3bbfcb4ec77676a7f98ebc095e/14.%20Project%202.%20Develop%20and%20validate%20UART%20VIP.pdf).
+
+
+pdf]
 
 ![This is an example image](github.png)
