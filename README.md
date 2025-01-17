@@ -12,7 +12,6 @@ For further details, please refer to the full documents linked below:
 - [UART Slide Presentation](https://github.com/huynv1212/Uart_Verification/blob/b7d4db5c69995b3bbfcb4ec77676a7f98ebc095e/14.%20Project%202.%20Develop%20and%20validate%20UART%20VIP.pdf).
 - [UART Specification Document](https://github.com/huynv1212/Uart_Verification/blob/dbb30989dad604e863c3684781a27175cdc2aa41/UART%20Protocol%20summary.pdf).
 
-
 Summary uart specification:
 - UART TX is high when idle
 - Start Bit: Signals the beginning of data transmission, usually a single low bit.
@@ -22,7 +21,8 @@ Summary uart specification:
 - Baud Rate: Defines the rate of data transmission in bits per second (bps) and needs to match on
 both transmitting and receiving UART. Common baud rate: 4800, 9600, 19200, 57600 and
 115200
-  
+
+## 
 
 
 ![This is an example image](github.png)
