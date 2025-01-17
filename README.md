@@ -22,7 +22,15 @@ Summary uart specification:
 both transmitting and receiving UART. Common baud rate: 4800, 9600, 19200, 57600 and
 115200
 
-## 
+## Tools and Methodology Used
+Coming soon!
+## Verification Structure Design
+coming soon!
+## Verification Plan Design
+coming soon!
+## Verification Environment Design and Develop
+coming soon!
+## Conclusion and Acknowledgment
 
 
 ![This is an example image](github.png)
