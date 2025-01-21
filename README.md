@@ -31,38 +31,43 @@ Tools and Methodology Used
 Below is a picture describing the Testbench structure to verify the VIP
 ![Testbench structure to verify the VIP](Structure_env.png)
 
-Top-Level (uart_test)
-This is the outermost layer of the testbench. It contains:
+Top-Level (`uart_test`)
 
-- Environment (uart_env): The main testing structure.
-- Configuration (uart_lhs_config and uart_rhs_config): These blocks define specific settings for the left-hand and right-hand agents. Settings include baud rate, data bits, parity, and stop bits. They ensure that both agents operate correctly within the test environment, with the goal of verifying the correctness of the UART VIP.
-Environment (uart_env)
-The environment includes:
+  The outermost layer of the testbench. It contains:
+- **Environment (`uart_env`)**: The main testing structure.
+- **Configuration (`uart_lhs_config` and `uart_rhs_config`)**: These blocks define specific settings for the left-hand and right-hand agents. Settings include baud rate, data bits, parity, and stop bits. They ensure that both agents operate correctly within the test environment, with the goal of verifying the correctness of the UART VIP.
 
-- Agents: Simulate and monitor UART behavior on both sides.
-- Scoreboard: Verifies data correctness by comparing what is sent and received, and also checks that the baud rate is correct.
-Agents (uart_lhs_agent and uart_rhs_agent)
-- uart_lhs_agent: Simulates one side of the UART (left-hand side).
-- uart_rhs_agent: Simulates the other side (right-hand side).
-Each agent contains:
+Environment (`uart_env`)
 
-- Monitor: Observes UART signals like TX and RX without interfering.
-- Driver: Sends test data to the UART under sequencer control.
-- Sequencer: Decides the order and type of data sent to the driver.
-Scoreboard (uart_scoreboard)
-This component checks whether the UART is functioning correctly. It compares:
+  The environment includes:
+- **Agents**: Simulate and monitor UART behavior on both sides.
+- **Scoreboard**: Verifies data correctness by comparing what is sent and received, and also checks that the baud rate is correct.
 
-- Data transmitted by one agent (TX) and received by the other agent (RX).
-- Baud rate to ensure that both agents are operating at the correct speed and that the transmission matches the configured baud rate.
-Interfaces (uart_interface)
-These represent the physical UART connections:
+Agents (`uart_lhs_agent` and `uart_rhs_agent`)
 
-- TX_LHS and RX_LHS: Connect to the left-hand side of the UART.
-- TX_RHS and RX_RHS: Connect to the right-hand side.
-Device Under Test (uart_dut)
-- The UART design being verified. It connects to the testbench through the UART interfaces.
+- **`uart_lhs_agent`**: Simulates one side of the UART (left-hand side).
+- **`uart_rhs_agent`**: Simulates the other side (right-hand side).
 
+  Each agent contains:
+- **Monitor**: Observes UART signals like TX and RX without interfering.
+- **Driver**: Sends test data to the UART under sequencer control.
+- **Sequencer**: Decides the order and type of data sent to the driver.
 
+Scoreboard (`uart_scoreboard`)
+
+  This component checks whether the UART is functioning correctly. It compares:
+- **Data** transmitted by one agent (TX) and received by the other agent (RX).
+- **Baud rate** to ensure that both agents are operating at the correct speed and that the transmission matches the configured baud rate.
+
+Interfaces (`uart_interface`)
+
+  These represent the physical UART connections:
+- **`TX_LHS` and `RX_LHS`**: Connect to the left-hand side of the UART.
+- **`TX_RHS` and `RX_RHS`**: Connect to the right-hand side.
+
+Device Under Test (`uart_dut`)
+
+  The UART design being verified. It connects to the testbench through the UART interfaces.
 
 
 ## Verification Plan Design
