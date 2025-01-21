@@ -71,7 +71,40 @@ Device Under Test (`uart_dut`)
 
 
 ## Verification Plan Design
-coming soon!
+
+This section presents the Verification Plan Design (VPLAN) for the UART VIP. The VPLAN outlines the various tests implemented to ensure the correctness and **stability** of the UART VIP design. Each test focuses on different aspects of the UART functionality, including data transmission, stop bits, baud rate, parity, and more.
+
+ Test Cases
+
+ uart_lhs sends, uart_rhs receives:
+- **TX/RX Test**: Verify data transmission and reception.
+- **Stop Bit Test**: 1 Stop bit, 2 Stop bits.
+- **Data Bits Test**: 5, 6, 7, 8, 9 Data Bits.
+- **Baud Rate Test**: 4800, 9600, 19200, 57600, 115200, Custom (1200).
+- **Parity Check**: Even, Odd, No Parity.
+- **Combination Test**: Various combinations of Baud Rate, Data Bits, Parity, Stop Bit.
+
+ uart_rhs sends, uart_lhs receives:
+- **TX/RX Test**: Verify data transmission and reception.
+- **Stop Bit Test**: 1 Stop bit, 2 Stop bits.
+- **Data Bits Test**: 5, 6, 7, 8, 9 Data Bits.
+- **Baud Rate Test**: 4800, 9600, 19200, 57600, 115200, Custom (1200).
+- **Parity Check**: Even, Odd, No Parity.
+- **Combination Test**: Various combinations of Baud Rate, Data Bits, Parity, Stop Bit.
+
+ Combination uart_lhs, uart_rhs sends and receives:
+- **TX/RX Test**: Verify data transmission and reception between both.
+- **Stop Bit Test**: 1 Stop bit, 2 Stop bits.
+- **Data Bits Test**: 5, 6, 7, 8, 9 Data Bits.
+- **Baud Rate Test**: 4800, 9600, 19200, 57600, 115200, Custom (1200).
+- **Parity Check**: Even, Odd, No Parity.
+- **Combination Test**: Various combinations of Baud Rate, Data Bits, Parity, Stop Bit.
+
+ Configuration Differences:
+- **Baud Rate, Stop Bit, Data Bit, Parity Bit**: Check configuration differences between uart_lhs and uart_rhs tests.
+
+For the full details of the Verification Plan, you can access the complete document [here](your_link_here).
+
 ## Verification Environment Design and Develop
 coming soon!
 ## Conclusion and Acknowledgment
