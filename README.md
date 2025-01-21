@@ -106,6 +106,7 @@ This section presents the Verification Plan Design (VPLAN) for the UART VIP. The
 For the full details of the Verification Plan, you can access the complete document [here](your_link_here).
 
 ## Verification Environment Design and Develop
+VIP design file:
 
 ./uart_project/
 
