@@ -23,7 +23,10 @@ both transmitting and receiving UART. Common baud rate: 4800, 9600, 19200, 57600
 115200
 
 ## Tools and Methodology Used
-Coming soon!
+Tools and Methodology Used
+- Language: SystemVerilog for writing testbenches and verification components.
+- Methodology: UVM for building a structured and reusable verification environment.
+- EDA Tool: QuestaSim for simulation and debugging.
 ## Verification Structure Design
 coming soon!
 ## Verification Plan Design
