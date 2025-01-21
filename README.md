@@ -112,7 +112,7 @@ VIP design file:
 
 rtl/
 
-- uart_dut.sv
+- [uart_dut.sv](https://github.com/huynv1212/UartVIP_Validate/blob/e48f88ff2dee80b85d31d7b4f32b3cc3e783d7aa/uart_dut.sv)
   
 sequences/
 
