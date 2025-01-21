@@ -106,7 +106,60 @@ This section presents the Verification Plan Design (VPLAN) for the UART VIP. The
 For the full details of the Verification Plan, you can access the complete document [here](your_link_here).
 
 ## Verification Environment Design and Develop
-coming soon!
+
+./uart_project/
+
+rtl/
+
+- uart_dut.sv
+  
+sequences/
+
+- seq_pkg.sv
+- uart_even_sequence.sv
+- uart_lhs_txrx_sequence.sv
+- uart_odd_sequence.sv
+ 
+sim/
+
+- compile.f
+- Makefile
+- project_env.bash
+- regress.cfg
+- regress.pl
+- regress.rpt
+- rtl.f
+- tb.f
+  
+tb/
+
+- env_pkg.sv
+- testbench.sv
+- uart_environment.sv
+- uart_scoreboard.sv
+  
+testcases/
+
+- test_pkg.sv
+- uart_difference_baudrate_test.sv
+- uart_difference_combination_test.sv
+- .............
+- uart_lhs_19200baudrate_test.sv
+- uart_lhs_115200baudrate_test.sv
+  
+uart_vip/
+
+- uart_agent.sv
+- uart_configuration.sv
+- uart_driver.sv
+- uart_if.sv
+- uart_monitor.sv
+- uart_pkg.sv
+- uart_sequencer.sv
+- uart_transaction.sv
+- uart_vip.f
+
+
 ## Conclusion and Acknowledgment
 
 
