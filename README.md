@@ -103,7 +103,7 @@ This section presents the Verification Plan Design (VPLAN) for the UART VIP. The
  Configuration Differences:
 - **Baud Rate, Stop Bit, Data Bit, Parity Bit**: Check configuration differences between uart_lhs and uart_rhs tests.
 
-For the full details of the Verification Plan, you can access the complete document [here](your_link_here).
+For the full details of the Verification Plan, you can access the complete document [Verificaiton Plan](https://github.com/huynv1212/UartVIP_Validate/blob/903e1a611db39d9579050f9294129ad9d9d820a3/Vplan_UART_nguyenvanhuy%20_ver2.pdf).
 
 ## Verification Environment Design and Develop
 VIP design file:
