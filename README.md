@@ -162,9 +162,9 @@ uart_vip/
 - uart_vip.f
 
 ## Simulation and Waveform
-COMINGSOON!
+COMING SOON!
 
 ## Conclusion and Acknowledgment
-COMINGSOON!
+COMING SOON!
 
 
