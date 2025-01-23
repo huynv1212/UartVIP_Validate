@@ -136,7 +136,7 @@ tb/
 
 - [env_pkg.sv](https://github.com/huynv1212/UartVIP_Validate/blob/35ae756344e20a3c525e332bc83b54c7026c64dc/env_pkg.sv)
 - [testbench.sv](https://github.com/huynv1212/UartVIP_Validate/blob/2288af881aea117b09f7c011f67e83f1265015dc/testbench.sv)
-- [uart_environment.sv](https://github.com/huynv1212/UartVIP_Validate/blob/c3d75c0b5ae23496699fc86b5a339221e4778ef3/testbench.sv)
+- [uart_environment.sv](https://github.com/huynv1212/UartVIP_Validate/blob/c3d75c0b5ae23496699fc86b5a339221e4778ef3/uart_environment.sv)
 - [uart_scoreboard.sv](https://github.com/huynv1212/UartVIP_Validate/blob/1aefa1c21b93f72fbcc2ae4696f8ae181343b8e7/scoreboard.sv)
   
 testcases/
