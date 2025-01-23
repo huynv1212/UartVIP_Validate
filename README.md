@@ -117,8 +117,8 @@ rtl/
 sequences/
 
 - [seq_pkg.sv](https://github.com/huynv1212/UartVIP_Validate/blob/665601db6a5d7be7f2dec6c5bbd0dbff449aa172/seq_pkg.sv)
-- uart_even_sequence.sv
-- uart_lhs_txrx_sequence.sv
+- [uart_even_sequence.sv](https://github.com/huynv1212/UartVIP_Validate/blob/8c9dcdca5c31916e94014b483c457792254815bf/uart_even_sequence.sv)
+- [uart_lhs_txrx_sequence.sv](https://github.com/huynv1212/UartVIP_Validate/blob/60e19e3dad8b51550d6e4ab84773c1e632b1fa8d/uart_lhs_rhs_sequence.sv)
 - uart_odd_sequence.sv
  
 sim/
