@@ -143,7 +143,7 @@ testcases/
 
 - test_pkg.sv
 - [uart_test.sv](https://github.com/huynv1212/UartVIP_Validate/blob/9901fdd242c802114fac009e82c8aa94d358c2ba/uart_test.sv)
-- uart_difference_baudrate_test.sv
+- [uart_lhs_rhs_combination2_test.sv](https://github.com/huynv1212/UartVIP_Validate/blob/eaf95e93739119f6c9966345638fb0f053203ffe/uart_lhs_rhs_combination2_test.sv)
 - uart_difference_combination_test.sv
 - .............
 - uart_lhs_19200baudrate_test.sv
