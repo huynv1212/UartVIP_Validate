@@ -142,6 +142,7 @@ tb/
 testcases/
 
 - test_pkg.sv
+- [uart_test.sv](https://github.com/huynv1212/UartVIP_Validate/blob/9901fdd242c802114fac009e82c8aa94d358c2ba/uart_test.sv)
 - uart_difference_baudrate_test.sv
 - uart_difference_combination_test.sv
 - .............
