@@ -116,7 +116,7 @@ rtl/
   
 sequences/
 
-- seq_pkg.sv
+- [seq_pkg.sv](https://github.com/huynv1212/UartVIP_Validate/blob/7d1b22db71d1535c71f4ad4362eb1a2945e44b73/seq_pkg.sv)
 - uart_even_sequence.sv
 - uart_lhs_txrx_sequence.sv
 - uart_odd_sequence.sv
